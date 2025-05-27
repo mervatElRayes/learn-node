@@ -1,0 +1,1 @@
+"yes"===localStorage.getItem("isSmall")?sidebarId.classList.add("small-sidebar"):sidebarId.classList.remove("small-sidebar");const toggleSidebar=()=>{"yes"===localStorage.getItem("isSmall")?(localStorage.setItem("isSmall","no"),sidebarId.classList.remove("small-sidebar")):(localStorage.setItem("isSmall","yes"),sidebarId.classList.add("small-sidebar"))};

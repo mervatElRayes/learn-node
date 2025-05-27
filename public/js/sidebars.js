@@ -1,0 +1,1 @@
+(()=>{"use strict";let t=Array.from(document.querySelectorAll('[data-bs-toggle="tooltip"]'));t.forEach(t=>{new bootstrap.Tooltip(t)})})();

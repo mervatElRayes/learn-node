@@ -1,0 +1,1 @@
+const mongoose=require("mongoose"),Schema=mongoose.Schema,userSchema=new Schema({firestName:String,lastName:String,email:String,phoneNumber:String,age:Number,country:String,gender:String},{timestamps:!0}),User=mongoose.model("customer",userSchema);module.exports=User;
